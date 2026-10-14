@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-爆弾避けゲーム-1.0";
 const contentToCache = [
-    "Build/爆弾避け、、、.loader.js",
-    "Build/爆弾避け、、、.framework.js.br",
-    "Build/爆弾避け、、、.data.br",
-    "Build/爆弾避け、、、.wasm.br",
+    "Build/爆弾避け.loader.js",
+    "Build/爆弾避け.framework.js.unityweb",
+    "Build/爆弾避け.data.unityweb",
+    "Build/爆弾避け.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
