@@ -205,10 +205,13 @@
 
     // モバイル端末の描画負荷軽減
     if (/iPhone|iPad|iPod|Android/i.test(
-      navigator.userAgent
-    )) {
-      config.devicePixelRatio = 1;
-    }
+  navigator.userAgent
+)) {
+  config.devicePixelRatio = Math.min(
+    window.devicePixelRatio || 1,
+    2
+  );
+}
 
 
     // 画面サイズ自動調整
